@@ -101,6 +101,21 @@
               </ul>
             </div>
           </div>
+          <body>
+      <div id="cntr">
+          The number of visitors is :
+          <span>0</span>
+      </div>
+        <script>
+          function counter_fn(){
+              var counter = $('#cntr span').text(); // geting value from span
+              var count = 0;
+              count = parseInt(counter.value);
+              count = count+1;
+              counter.innerHTML = parseInt(count);
+         }
+          window.onload = counter_fn;
+          </script>
         </div>
       </div>
 
@@ -470,7 +485,7 @@
             <h4><a href="">Mathematical Modeling</a></h4>
             <p>Multidisciplinary applications and process modeling with focus on optimization</p>
             <p> &nbsp; </p>
-            <a class="btn btn-success" href="https://drive.google.com/file/d/1_qukzpLJdxBqmHG_WzRtzv-Pxo8e08co/view?usp=sharing" target="_blank">Modeling and Optimizing Battery Expenditure of An Autonomous Electric Vehicle</a>
+            <a class="btn btn-success" href="https://drive.google.com/file/d/1_qukzpLJdxBqmHG_WzRtzv-Pxo8e08co/view?usp=sharing" target="_blank">Modeling and Optimizing Battery Consumption of An Autonomous Electric Vehicle</a>
             <p> &nbsp; </p>
             <a class="btn btn-success" href="https://drive.google.com/file/d/1-UTFf_XpwSSEhA9nS2OQo9ow6soyAgPL/view?usp=sharing" target="_blank">Optimizing the Bike Rebalancing Procedure for ValleyBike Share in Amherst, MA, USA</a>
           </div>
